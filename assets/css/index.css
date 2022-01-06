@@ -1,4 +1,109 @@
-header {
+.hero-container {
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(26, 44, 29, 0.83),
+      rgba(1, 22, 5, 0.95)
+    ),
+    url("../images/IMG_3293.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.inner-hero-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.hero-right-side-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  padding-top: 8rem;
+}
+
+.hero-left-side-container {
+  width: 100%;
+}
+
+.outer-card-container {
+  /* will set the size of the card and hold the card data */
+}
+
+.card-background {
+  position: relative;
+  background-color: #bdbbbb;
+  width: 21rem;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2rem;
+  justify-content: center;
+}
+
+.hero-card-img-container {
+  width: 17rem;
+  height: 18rem;
+  position: absolute;
+  bottom: 8rem;
+}
+
+.hero-card-img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3rem;
+}
+
+.social-links-container {
+  width: 17rem;
+  height: 3rem;
+  border-radius: 2rem;
+  background-color: rgb(92, 53, 62);
+  position: absolute;
+  top: 10.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links-container a {
+  flex: 1;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #bdbbbb;
+}
+
+.fa {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa::before {
+  padding: 0.5rem;
+  background-color: rgb(92, 53, 62);
+}
+
+.name-and-position-container {
+  margin-top: 2.2rem;
+}
+
+.name-and-position-container h3,
+.name-and-position-container h4 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgb(26, 44, 29);
+}
+
+.name-and-position-container h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }
 
 nav {
